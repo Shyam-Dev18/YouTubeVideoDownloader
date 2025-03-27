@@ -12,8 +12,66 @@ This is a Python-based **YouTube Video Downloader** that allows users to **downl
 
 ---
 
-## 📌 Requirements
-Before running the script, ensure you have **Python 3.7+** installed.
+## 📌 Requirements  
+Before running the script, ensure you have the following installed:  
+
+### 1️⃣ **Python 3.7+**  
+- Download and install **Python** from the official website: [python.org/downloads](https://www.python.org/downloads/)  
+- During installation, check the box **"Add Python to PATH"** for easy access from the command line.  
+- Verify installation by running:  
+  ```sh
+  python --version
+2️⃣ FFmpeg (Required for merging audio & video)
+FFmpeg is a multimedia framework used for processing audio and video files.
+
+🛠 Windows Installation:
+Download the latest FFmpeg build from: https://ffmpeg.org/download.html
+
+Extract the files to a location (e.g., C:\ffmpeg).
+
+Add FFmpeg to your system's PATH:
+
+Search for "Environment Variables" in the Windows Start Menu.
+
+Under System Variables, find Path, then click Edit.
+
+Click New and add the bin folder path (e.g., C:\ffmpeg\bin).
+
+Click OK to save the changes.
+
+Verify installation by running:
+
+sh
+Copy
+Edit
+ffmpeg -version
+🛠 Linux / macOS Installation:
+For Debian/Ubuntu:
+
+sh
+Copy
+Edit
+sudo apt update && sudo apt install ffmpeg
+For macOS (using Homebrew):
+
+sh
+Copy
+Edit
+brew install ffmpeg
+Verify installation with:
+
+sh
+Copy
+Edit
+ffmpeg -version
+Once both Python and FFmpeg are installed, you're ready to run the script! 🚀
+
+markdown
+Copy
+Edit
+
+This will **properly format** in GitHub’s Markdown and provide **clear installation instructions**. 🎯
+
 
 Install the required dependencies using:
 
@@ -64,6 +122,7 @@ You can change this path by modifying the `DESTINATION_DIRECTORY` variable insid
 ## ⚡ Dependencies
 This script uses:
 - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) – for extracting and downloading YouTube videos.
+- [`FFmpeg`](https://ffmpeg.org/) – for merging audio and video files.
 - [`urllib`](https://docs.python.org/3/library/urllib.html) – for URL parsing.
 - [`os`](https://docs.python.org/3/library/os.html) – for handling file paths.
 - [`re`](https://docs.python.org/3/library/re.html) – for sanitizing filenames.
