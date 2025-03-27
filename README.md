@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ## 📂 Download Location
 By default, videos are saved in:
 ```
-D:\HTML Projects\youtube-downloader
+D:\YouTubeVideoDownloader
 ```
 You can change this path by modifying the `DESTINATION_DIRECTORY` variable inside the script.
 
@@ -74,6 +74,7 @@ This script uses:
 This script is **intended for personal use only**. Downloading videos without permission may violate YouTube’s **Terms of Service**. Use responsibly.
 
 ---
+## ⚠️ Owner [Shyam Developer]
 
 ## 📝 License
 This project is open-source under the **MIT License**.
