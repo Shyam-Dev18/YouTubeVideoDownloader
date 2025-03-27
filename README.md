@@ -69,10 +69,9 @@ Once both Python and FFmpeg are installed, you're ready to run the script! 🚀
 markdown
 Copy
 Edit
-```
 
 
-##Install the required dependencies using:
+Install the required dependencies using:
 
 ```bash
 pip install -r requirements.txt
