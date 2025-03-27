@@ -69,11 +69,10 @@ Once both Python and FFmpeg are installed, you're ready to run the script! 🚀
 markdown
 Copy
 Edit
+```
 
-This will **properly format** in GitHub’s Markdown and provide **clear installation instructions**. 🎯
 
-
-Install the required dependencies using:
+##Install the required dependencies using:
 
 ```bash
 pip install -r requirements.txt
